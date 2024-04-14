@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Stellar',
-  description: 'Page description',
+  title: 'SecantX - P2P Plugin',
+  description: 'SecantX enables interoperability p2p transactions for third-party non-custodial and custodial centralized and centralized exchanges.',
 }
 
 import Hero from '@/components/hero'
@@ -13,13 +13,14 @@ import Features04 from '@/components/features-04'
 import Pricing from './pricing-section'
 import Testimonials from '@/components/testimonials'
 import Cta from '@/components/cta'
+import TempHero from '@/components/temp-hero'
 
 export default function Home() {
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
       {/* <Clients /> */}
-      <Features />
+      <TempHero />
       {/* <Features02 />
       <Features03 />
       <TestimonialsCarousel />

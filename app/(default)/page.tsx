@@ -19,15 +19,16 @@ export default function Home() {
   return (
     <>
       {/* <Hero /> */}
-      {/* <Clients /> */}
       <TempHero />
-      {/* <Features02 />
-      <Features03 />
-      <TestimonialsCarousel />
+      <Features02 />
+       {/* <Clients /> */}
+      <Features />
+      {/* <Features03 /> */}
+      {/* <TestimonialsCarousel /> */}
       <Features04 />
-      <Pricing />
-      <Testimonials />
-      <Cta /> */}
+      {/* <Pricing /> */}
+      {/* <Testimonials /> */}
+      <Cta />
     </>
   )
 }

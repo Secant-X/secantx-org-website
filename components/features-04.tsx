@@ -20,8 +20,8 @@ export default function Features04() {
 
           {/* Section header */}
           <div className="max-w-3xl pb-12 md:pb-20">
-            <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Why is a non-custodial P2P plugin the future of DeFi?</h2>
-            <p className="text-lg text-slate-400">As the DeFi ecosystem continues to expand rapidly, with thousands of new projects and blockchain networks emerging, ensuring your users' financial sovereignty becomes increasingly crucial. According to recent statistics, the number of decentralized finance (DeFi) projects has grown exponentially, reaching over 7,000 by the end of 2023. Amidst this proliferation, ensuring user control over assets is paramount, with over 80% of DeFi users expressing concerns about custodial solutions. Hence, embracing non-custodial P2P plugins like SecantX becomes not just an option but a necessity, offering your users unparalleled autonomy in managing their digital assets across diverse chains.</p>
+            <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Join the SecantX Ecosystem</h2>
+            <p className="text-lg text-slate-400">Dive into a DeFi platform that prioritizes security, user empowerment, and scalable solutions. With $SECX, not only do you participate in governance but also enjoy a fluid, multi-chain DeFi experience that transcends traditional financial barriers.</p>
           </div>
 
           {/* Rows */}

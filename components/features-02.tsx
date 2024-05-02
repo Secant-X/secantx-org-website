@@ -20,8 +20,8 @@ export default function Features02() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Ultimate DeFi Integration PaaS</h2>
-            <p className="text-lg text-slate-400">SecantX  is transforming decentralized finance with its adaptable DeFi SaaS P2P payment plugin that can be seamlessly integrated into any blockchain projects.</p>
+            <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Open source and community controlled PaaS</h2>
+            <p className="text-lg text-slate-400">With just a few lines of code, operate with complete autonomy using our smart contract-driven services that ensure safety and transparency. It’s just that easy!</p>
           </div>
 
           {/* Highlighted boxes */}

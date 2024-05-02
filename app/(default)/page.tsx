@@ -14,6 +14,7 @@ import Pricing from './pricing-section'
 import Testimonials from '@/components/testimonials'
 import Cta from '@/components/cta'
 import TempHero from '@/components/temp-hero'
+import VitalikComment from '@/components/vitalik-comment'
 
 export default function Home() {
   return (
@@ -26,6 +27,8 @@ export default function Home() {
       {/* <Features03 /> */}
       {/* <TestimonialsCarousel /> */}
       <Features04 />
+    {/* <TestimonialsCarousel /> */}
+      <VitalikComment />
       {/* <Pricing /> */}
       {/* <Testimonials /> */}
       <Cta />

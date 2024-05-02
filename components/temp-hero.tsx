@@ -37,7 +37,7 @@ export default function TempHero() {
               </div>
             </div>
             <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4" data-aos="fade-down">Elevate Your Project with SecantX: The Ultimate DeFi SaaS Platform</h1>
-            <p className="text-lg text-slate-300 mb-8" data-aos="fade-down" data-aos-delay="200">Introducing a P2P interoperability blockchain plugin designed specifically to seamlessly integrate with various blockchain DeFi projects, ensuring efficient cross-chain transactions and enhanced interoperability.</p>
+            <p className="text-lg text-slate-300 mb-8" data-aos="fade-down" data-aos-delay="200">SecantX's platform simplifies safe, non-custodial P2P crypto trading, enhancing cross-chain interoperability.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4" data-aos="fade-down" data-aos-delay="400">
               <div>
                 <a className="btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white w-full transition duration-150 ease-in-out group" href="/onboarding">

@@ -6,7 +6,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 import Header from '@/components/ui/header'
-import Footer from '@/components/ui/footer'
+import Footer from '@/components/ui/temp-footer'
 
 export default function DefaultLayout({
   children,
@@ -33,7 +33,7 @@ export default function DefaultLayout({
 
       </main>
 
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

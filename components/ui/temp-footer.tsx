@@ -26,10 +26,10 @@ export default function Footer() {
             <h6 className="text-sm text-slate-50 font-medium mb-2">About</h6>
             <ul className="text-sm space-y-2">
               <li>
-                <a className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Home</a>
+                <a className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="/">Home</a>
               </li>
               <li>
-                <a className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Get Started</a>
+                <a className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="/onboarding">Get Started</a>
               </li>
             </ul>
           </div>
@@ -58,7 +58,7 @@ export default function Footer() {
                {/* Social links */}
               <ul className="flex">
                 <li>
-                  <a className="flex justify-center items-center text-purple-500 hover:text-purple-400 transition duration-150 ease-in-out" href="#0" aria-label="Twitter">
+                  <a className="flex justify-center items-center text-purple-500 hover:text-purple-400 transition duration-150 ease-in-out" href="https://twitter.com/SecantXlabs" aria-label="Twitter" target="_blank">
                     <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                       <path d="m13.063 9 3.495 4.475L20.601 9h2.454l-5.359 5.931L24 23h-4.938l-3.866-4.893L10.771 23H8.316l5.735-6.342L8 9h5.063Zm-.74 1.347h-1.457l8.875 11.232h1.36l-8.778-11.232Z" />
                     </svg>

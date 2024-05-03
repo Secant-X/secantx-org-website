@@ -22,6 +22,9 @@ import CustomerImg10 from '@/public/images/customer-10.svg'
 import CustomerBg10 from '@/public/images/customer-bg-10.png'
 import CustomerAvatar01 from '@/public/images/customer-avatar-01.jpg'
 import CustomerAvatar02 from '@/public/images/customer-avatar-02.jpg'
+import Onboarding from '@/public/images/launch.png'
+import Onboarding1 from '@/public/images/Onboarding.png'
+import Onboarding2 from '@/public/images/Community.png'
 import Particles from '@/components/particles'
 import Highlighter, { HighlighterItem02 } from '@/components/highlighter'
 
@@ -29,22 +32,22 @@ export default function AnnouncementsList() {
 
   const items = [
     {
-      name: 'Customer name',
+      name: 'Join SecantX',
       img: CustomerImg01,
-      bg: CustomerBg01,
-      link: '#',
+      bg: Onboarding,
+      link: 'https://mirror.xyz/0x80e99D0d10c1127384989F480B6689E2bF96C1EE',
     },
     {
       name: 'Customer name',
       img: CustomerImg01,
-      bg: CustomerBg02,
+      bg: Onboarding1,
       link: '#',
     },
     {
-      name: 'Customer name',
+      name: 'Join Zealy',
       img: CustomerImg01,
-      bg: CustomerBg03,
-      link: '#',
+      bg: Onboarding2,
+      link: 'https://zealy.io/cw/secantxlabs/questboard',
     },
   ]
 
@@ -61,7 +64,7 @@ export default function AnnouncementsList() {
                 <Particles className="absolute inset-0 -z-10" quantity={3} />
                 <div className="flex items-center justify-center">
                   <Image className="w-full h-full aspect-video object-cover" src={item.bg} width={352} height={198} alt="Customer Background" aria-hidden="true" />
-                  <Image className="absolute" src={item.img} alt={item.name} />
+                  {/* <Image className="absolute" src={item.img} alt={item.name} /> */}
                 </div>
               </div>
             </HighlighterItem02>

@@ -1,12 +1,37 @@
 import './css/style.css'
 
-import { Inter } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
+import localFont from "@next/font/local"
 
-const inter = Inter({
+const montserrat = Montserrat({
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-montserrat',
   display: 'swap'
 })
+
+const unbounded = localFont({
+  src: [
+    {
+      path: './../public/fonts/Unbounded-Light.ttf',
+      weight: '400'
+    },
+    {
+      path: './../public/fonts/Unbounded-Regular.ttf',
+      weight: '500'
+    },
+    {
+      path: './../public/fonts/Unbounded-Bold.ttf',
+      weight: '600'
+    },
+    {
+      path: './../public/fonts/Unbounded-ExtraBold.ttf',
+      weight: '700'
+    }
+  ],
+  variable: '--font-unbounded'
+
+})
+
 
 export const metadata = {
   title: 'Create Next App',
@@ -20,7 +45,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.variable} font-inter antialiased bg-slate-900 text-slate-100 tracking-tight`}>
+      <body className={`${montserrat.variable} font-montserrat antialiased bg-slate-900 text-slate-100 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
           {children}
         </div>

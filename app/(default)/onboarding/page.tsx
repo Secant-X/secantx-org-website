@@ -34,7 +34,7 @@ export default function Customers() {
             <div className="text-center pb-12 md:pb-20">
               <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">SecantX P2P Protocol</h1>
               <div className="max-w-3xl mx-auto">
-                <p className="text-lg text-slate-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet natus voluptatibus doloribus molestiae fugit iste!</p>
+                <p className="text-lg text-slate-400">🚀 Get Ready to Pioneer the Future with SecantX P2P Protocol Token Launch! 🌐</p>
               </div>
             </div>
 

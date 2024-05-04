@@ -5,7 +5,7 @@ import Image, { StaticImageData } from 'next/image'
 import { Transition } from '@headlessui/react'
 import Particles from './particles'
 
-import TestimonialImg01 from '@/public/images/vitalik.png'
+//import TestimonialImg01 from '@/public/images/vitalik.png'
 
 interface Item {
   img: StaticImageData

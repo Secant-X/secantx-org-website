@@ -43,14 +43,14 @@ export default function AnnouncementsList() {
       bg: Onboarding1,
       link: '#',
     },
-    {
+ /**   {
       name: 'Join Zealy',
       img: CustomerImg01,
       bg: Onboarding2,
       link: 'https://zealy.io/cw/secantxlabs/questboard',
     },
   ]
-
+*/
   return (
   <div className="max-w-[352px] mx-auto sm:max-w-[728px] lg:max-w-none pb-12 md:pb-20">
     <Highlighter className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 group [&_*:nth-child(n+5):not(:nth-child(n+12))]:order-1 [&_*:nth-child(n+10):not(:nth-child(n+11))]:!order-2">

@@ -43,12 +43,13 @@ export default function AnnouncementsList() {
       bg: Onboarding1,
       link: '#',
     },
-    {
+    /**  {
       name: 'Join Zealy',
       img: CustomerImg01,
       bg: Onboarding2,
       link: 'https://zealy.io/cw/secantxlabs/questboard',
     },
+*/
   ]
 
   return (

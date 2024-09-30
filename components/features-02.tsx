@@ -20,7 +20,7 @@ export default function Features02() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Open source and community controlled PaaS</h2>
+            <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Empower Your Business with Secure, Borderless Payments</h2>
             <p className="text-lg text-slate-400">With just a few lines of code, operate with complete autonomy using our smart contract-driven services that ensure safety and transparency. It’s just that easy!</p>
           </div>
 
@@ -98,8 +98,8 @@ export default function Features02() {
                       {/* Text */}
                       <div className="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 pt-0 md:p-8">
                         <div>
-                          <h3 className="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">Adaptable Payment Plugin</h3>
-                          <p className="text-slate-400"> SecantX's payment plugin seamlessly fits into various projects, making decentralized finance more accessible and user-friendly.</p>
+                          <h3 className="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">Simplified Compliance</h3>
+                          <p className="text-slate-400"> Our SecantXAI tool streamlines compliance and regulatory adherence, so you can focus on growing your business.</p>
                         </div>
                       </div>
                       {/* Image */}
@@ -122,8 +122,8 @@ export default function Features02() {
                       {/* Text */}
                       <div className="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 pt-0 md:p-8">
                         <div>
-                          <h3 className="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">Simplified Cross-Chain Transaction</h3>
-                          <p className="text-slate-400">With SecantX, conducting transactions across multiple blockchains becomes effortless, eliminating the need for managing complicated infrastructure.</p>
+                          <h3 className="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">Anytime, Anywhere Access</h3>
+                          <p className="text-slate-400">Be borderless, empowering you to manage your finances on the go.</p>
                         </div>
                       </div>
                       {/* Image */}

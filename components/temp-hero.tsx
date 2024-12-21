@@ -8,7 +8,7 @@ import Particles from './particles'
 import Illustration from '@/public/images/glow-top.svg'
 
 export default function TempHero() {
-
+  const [showTooltip, setShowTooltip] = useState(false)
 
   return (
     <section>
@@ -39,10 +39,23 @@ export default function TempHero() {
             <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4" data-aos="fade-down">Simplify Payments, Streamline Compliance</h1>
             <p className="text-lg text-slate-300 mb-8" data-aos="fade-down" data-aos-delay="200">SecantX empowers you to access payments anytime, anywhere, without relying on third-party intermediaries. Our cutting-edge SecantXAI tool simplifies compliance and regulatory adherence, so you can focus on growing your business.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4" data-aos="fade-down" data-aos-delay="400">
-              <div>
-                <a className="btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white w-full transition duration-150 ease-in-out group" href="/onboarding">
+              <div className="relative">
+                <button 
+                  className="btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white w-full transition duration-150 ease-in-out group"
+                  onClick={() => setShowTooltip(true)}
+                  onMouseLeave={() => setShowTooltip(false)}
+                >
                   Get Started <span className="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                </a>
+                </button>
+                
+                {/* Tooltip */}
+                {showTooltip && (
+                  <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-slate-800 text-white text-sm rounded-lg shadow-lg whitespace-nowrap">
+                    Coming Soon!
+                    {/* Arrow */}
+                    <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 rotate-45 w-2 h-2 bg-slate-800"></div>
+                  </div>
+                )}
               </div>
             </div>
 
